@@ -6,14 +6,19 @@ import android.os.Bundle;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v4.widget.SwipeRefreshLayout.OnRefreshListener;
 import android.widget.TextView;
+/**
+   This sample is try to know the swipe refresh layout function.
+
+   @author garylin
+   @since 2017/11/24
+ */
+
 
 public class MainActivity extends Activity {
 
     private TextView mShowTextView;
     private SwipeRefreshLayout mSwipeRefreshLayout;
-
-
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,12 +35,11 @@ public class MainActivity extends Activity {
 
                 mShowTextView.setTextColor(Color.parseColor("#FF0000"));
                 mShowTextView.setText(getString(R.string.show_after_refresh_wording));
-                mSwipeRefreshLayout.setRefreshing(false);
+
+                mSwipeRefreshLayout.setRefreshing(false); // close the refresh icon.
             }
         });
-
     }
-
 
     private void initLayout(){
         mShowTextView = findViewById(R.id.txt_show_wording);
