@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">SwipeRefreshLayoutSample</string>
+
+  <string name="show_before_refresh_wording">Swipe To Update</string>
+  <string name="show_after_refresh_wording">Swipe Update Finish !!!</string>
+
+</resources>
