@@ -1,6 +1,6 @@
 # android_sample-SwipeRefreshLayoutSample
 
-This sample is using swiperefreshlayout to implement swipe refresh action.
+This sample is using SwipeRefreshLayout to implement swipe refresh action.
 
 #### NOTICE: 
          
